@@ -1,0 +1,8 @@
+author: JamesHealey94
+website: https://github.com/JamesHealey94
+
+name: SimpleTownsAddonExample
+main: com.gmail.jameshealey1994.simpletownsaddonexample.SimpleTownsAddonExample
+version: 1.0
+
+depend: [SimpleTowns]
