@@ -24,6 +24,6 @@ public class SimpleTownsAddonExample extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onTownDeleteEvent(TownDeleteEvent event) {
-        getServer().broadcastMessage("onTownDeleteEvent - Town deleted: " + event.getTownName());
+        getServer().broadcastMessage(event.getEventName() + " - Town deleted: " + event.getTown().getName());
     }
 }
